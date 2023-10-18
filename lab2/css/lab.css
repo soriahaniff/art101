@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #e05fdc;
+    background-color: #fdc4fd;
+  }
+  h1 { color: #ce2680;
+    font-family: Brush Script MT;
+    font-size: 350%;
+  }
+
+
+  p {
+    font-family: Montserrat;
+    font-size: 130%;
+    font-style: oblique;
   }
