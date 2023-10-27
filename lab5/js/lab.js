@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Soriah Aniff <saniff@ucsc.edu>
+// Date: October 25th 2023
 
 // Constants
 
@@ -19,3 +19,19 @@ function main() {
 
 // let's get this party started
 main();
+
+//Define Variables
+var make = "Ford";
+var model = "Bronco";
+var color = "Blue";
+var year = 1966;
+
+//calculate
+age = 2023 - year;
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
