@@ -24,4 +24,8 @@ const newText = generateRandomText();
 $("#output").append('<div class="text"><p>' + newText +'</p></div>');
 });
 
-
+//add the click handler for second button
+$('#my-button').click(function() {
+  var name = $("#input").val();
+  console.log("Your input:", inputValue);
+});
