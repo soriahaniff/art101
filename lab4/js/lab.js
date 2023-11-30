@@ -1,6 +1,17 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Hangman
+// An Implementation of the game
+// Author: Soriah Aniff <saniff@ucsc.edu>
+// Date: October 2023
+
+// Jump Starting a Car
+  // gather Materials 
+  // Find a car with a charged battery
+  // identify positive and negative terminals on both vehicles 
+  // Connect jumper cables 
+  // start the working vehicle
+  // remove jumper cables
+  // let the dead vehicle run 
 
 // Constants
 

@@ -34,7 +34,7 @@
   }
   .special {
     background-color: rgb(164, 79, 162);
-    border: dashed 50px rgb(235, 227, 227);
+    border: ridge 50px rgb(235, 227, 227);
     color: rgb(23, 14, 15);
     font-weight: bold;
 }
