@@ -6,26 +6,21 @@
 
 console.log("java script is working");
 
-oneLongString += num + " Fizz!<br>"; 
-$("#output").html(oneLongString);
-str += "Fizz";
-$("#output").append("<p>" + str + "</p>");
 
 maxFactors = 4;
 
 outputEl = document.getElementById("output");
 
 // get the values from the webpage and write them in an object
-// this expects to have input fields with ids num0, text0, num1, text1, etc
-// returns an object that looks like this:
-//      {3: "Fizz", 5: "Buzz", 7: "Boom"}
 function getFactorObj() {
     var factorObj = {};
+    var numId, textId, numValue, textValue;
     for (var factor=0; factor<maxFactors; factor++) {
-        numId = "num" + factor;
-        textId = "text" + factor;
-        numValue = document.getElementById(numId).value;
-        textValue = document.getElementById(textId).value;
+         numId = "num" + factor;
+         textId = "text" + factor;
+         numValue = document.getElementById(numId).value;
+         textValue = document.getElementById(textId).value;
+         
         console.log(factor + ") num:", numValue, "text:", textValue)
         // if either value is blank, don't use it
         if (numValue && textValue) {
@@ -41,8 +36,6 @@ function outputToPage(str) {
     outputEl.appendChild(newEl);
 }
 
-// given a number and an object that looks like this:
-//      {3: "Fizz", 5: "Buzz", 7: "Boom"}
 // loops over the numbers and outputs the number and the matching text
 // for factors
 function fizzBuzzBoom(maxNums, factorObj) {
@@ -77,7 +70,7 @@ document.getElementById("submit").addEventListener("click", function() {
     if (! max) {
         reportError("You must provide a maximum");
         return;
-    }
+  }
     var factorObj = getFactorObj();
     console.log("factorObj:", factorObj);
     if (Object.keys(factorObj).length === 0) {
