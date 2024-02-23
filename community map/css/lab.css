@@ -17,6 +17,6 @@
       border-radius: 50px;
       box-shadow: 0 0 10px #66b2ff;
       background: linear-gradient(to bottom, #587ad7, #3f89e4);
-      text-transform: uppercase;
+      
   }
   #map { height: 650px; }
