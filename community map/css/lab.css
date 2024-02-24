@@ -17,12 +17,6 @@
       border-radius: 50px;
       box-shadow: 0 0 10px #66b2ff;
       background: linear-gradient(to bottom, #587ad7, #3f89e4);
-  
   }
 
-.section1{
-  font-size: small;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 100;
-}
   #map { height: 650px; }
