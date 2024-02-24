@@ -15,8 +15,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var Walnut = L.marker([36.9724881, -122.0308609]).addTo(map);
 var popupWalnut = L.popup()
     .setLatLng([36.9724881, -122.0308609])
-    .setContent("<b>Walnut Ave. Womens Center</b><br> Here is where Walnut Ave. is located, the other pins represent other private health care facilities that are located in Santa Cruz.")
+    .setContent("<b>Walnut Ave. Womens Center:</b><br> Hello, welcome to our community map! Here is where Walnut Ave. is located. The other pins represent other private health care facilities that are located in Santa Cruz.")
     .openOn(map);
 
 var Sutter = L.marker([36.9679718, -122.0382819]).addTo(map);
+var plannedparent = L.marker([36.97218, -122.02616]).addTo(map);
+var kaiser = L.marker([36.97472, -122.02598]).addTo(map);
+var doctoronduty = L.marker([36.97720, -122.02065]).addTo(map);
+var women = L.marker([36.97500, -122.02883]).addTo(map);
 
